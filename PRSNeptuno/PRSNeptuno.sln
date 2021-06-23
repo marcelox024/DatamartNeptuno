@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PRSNeptuno", "PRSNeptuno\PRSNeptuno.rptproj", "{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.Debug|Default.ActiveCfg = Debug
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.Debug|Default.Build.0 = Debug
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.Debug|Default.Deploy.0 = Debug
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.DebugLocal|Default.Build.0 = DebugLocal
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.Release|Default.ActiveCfg = Release
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.Release|Default.Build.0 = Release
+		{F01F945A-5F6D-4F10-8232-8D0E4A46C1C8}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEEEF5C3-FA4F-42E3-8ACB-634A353D7662}
+	EndGlobalSection
+EndGlobal
