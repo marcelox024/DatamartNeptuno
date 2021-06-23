@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>nepcube01</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>X6QGxuPAGYEQOs1+fv0O5Idxy88=02/04/2021 22:08:4902/04/2021 22:08:49</TimeStamp>
+        <ID>
+          <String>Nephdm</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>57e5HW4nQICtiY9aBzhR0QF9W/4=02/04/2021 22:09:3402/04/2021 22:09:33</TimeStamp>
+        <ID>
+          <String>Nephdm</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>79LGYwxOyIjhiohg6cLZ40x3cTM=02/04/2021 22:10:0602/04/2021 22:10:06</TimeStamp>
+        <ID>
+          <String>DimCliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qqptbMIVezgXL5TOR77ZkHrpP6I=02/04/2021 22:11:2902/04/2021 22:11:29</TimeStamp>
+        <ID>
+          <String>DimCompEnvio</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HDPDVaaceJdY8voR/OIwMC2EZLk=02/04/2021 22:12:3102/04/2021 22:12:31</TimeStamp>
+        <ID>
+          <String>DimEmpleado</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I0DIFENN/zTbkemZO6j2yf1eoNM=02/04/2021 22:14:1702/04/2021 22:14:17</TimeStamp>
+        <ID>
+          <String>DimProducto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nysmbo2WZcPBhp0p2f2f4LvXWp4=02/04/2021 22:17:5902/04/2021 22:17:59</TimeStamp>
+        <ID>
+          <String>DimProveedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kYO+pQn+OHRvOQwdwhmnPUlyg0o=02/04/2021 22:18:2002/04/2021 22:18:20</TimeStamp>
+        <ID>
+          <String>DimTiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MEco7z6XgOyk+hAJYAuR6L/S48A=18/04/2021 15:50:2302/04/2021 22:21:24mfoTm5cXeHv2KKIpCr3waFt4Y3U=02/04/2021 22:21:2402/04/2021 22:21:24</TimeStamp>
+        <ID>
+          <String>Nephdm</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>FXDYxxXNISXrudc4RZL36IHrpDo=02/04/2021 22:07:1902/04/2021 22:07:18</TimeStamp>
+      <ID>
+        <String>nepcube01</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-04-18T20:50:25.266667Z</LastDeployed>
+</DeploymentSnapshot>

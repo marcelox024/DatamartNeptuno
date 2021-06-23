@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "PMNeptuno", "PMNeptuno\PMNeptuno.dwproj", "{0C720126-B27F-4816-8401-7A9D34C13DD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C720126-B27F-4816-8401-7A9D34C13DD3}.Development|Default.ActiveCfg = Development
+		{0C720126-B27F-4816-8401-7A9D34C13DD3}.Development|Default.Build.0 = Development
+		{0C720126-B27F-4816-8401-7A9D34C13DD3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {285E45EF-7DA2-48F8-9C13-13CE176AD87B}
+	EndGlobalSection
+EndGlobal
